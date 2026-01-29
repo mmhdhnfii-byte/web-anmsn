@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
 
 // lirik manual (sementara)
 const lyrics = [
-  "Baris lirik pertama",
+  "Baris pertama",
   "Baris lirik kedua",
   "Baris lirik ketiga"
 ];
@@ -24,3 +24,4 @@ setInterval(() => {
   lyricsEl.textContent = lyrics[i];
   i = (i + 1) % lyrics.length;
 }, 3000);
+
