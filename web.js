@@ -1,5 +1,5 @@
 const audio = document.getElementById("audio");
-const btn = document.getElementById("playBtn");
+const btn = document.getElementById("playbtn");
 const lyricsEl = document.getElementById("lyrics");
 
 btn.addEventListener("click", () => {
@@ -24,6 +24,7 @@ setInterval(() => {
   lyricsEl.textContent = lyrics[i];
   i = (i + 1) % lyrics.length;
 }, 3000);
+
 
 
 
