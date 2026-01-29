@@ -1,4 +1,4 @@
-const audio = document.getElementById("say-yellow.mp3");
+const audio = document.getElementById("audio");
 const btn = document.getElementById("playBtn");
 const lyricsEl = document.getElementById("lyrics");
 
@@ -24,5 +24,6 @@ setInterval(() => {
   lyricsEl.textContent = lyrics[i];
   i = (i + 1) % lyrics.length;
 }, 3000);
+
 
 
