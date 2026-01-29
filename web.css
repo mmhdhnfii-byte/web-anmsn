@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 1;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
+container {
   background: white;
   width: 90%;
   max-width: 400px;
@@ -29,3 +29,4 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
+
